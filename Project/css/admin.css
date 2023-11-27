@@ -1,0 +1,25 @@
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.users, .products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-action{
+    display: inline-flex;
+    padding:20px ;
+}
+td img{
+    width: 100px;
+}
+#product-img ,#new-product-img{
+    width: 100px;
+}
+.add-and-search , .filter-and-sort{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+}
